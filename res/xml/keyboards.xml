@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboards><!--
+    <Keyboard nameResId="@string/eng_keyboard" iconResId="@drawable/ic_stat_en"
+              layoutResId="@xml/qwerty" id="c7535083-4fe6-49dc-81aa-c5438a1a343a"
+              defaultDictionaryLocale="en" description="QWERTY Latin keyboard"
+              index="1" defaultEnabled="false"
+              physicalKeyboardMappingResId="@xml/physical"
+              screenshotResId="@drawable/english_qwerty_screenshot"
+            />-->
+    <Keyboard nameResId="@string/jv_keyboard1"
+        iconResId="@drawable/ic_stat_en"
+        layoutResId="@xml/javanese_hanacaraka"
+        landscapeResId="@xml/javanese_hanacaraka_landscape" id="12335055-4aa6-49dc-8456-c7d38a1a5123"
+        defaultDictionaryLocale="en" description="Hanacaraka keyboard layout by bennylin"
+        index="2" defaultEnabled="true"
+        physicalKeyboardMappingResId="@xml/physical"
+        />
+    <Keyboard nameResId="@string/jv_keyboard2" iconResId="@drawable/ic_stat_en"
+        layoutResId="@xml/javanese_qwerty" id="34CC76A3-91B3-4204-BB1B-421BA8FC8430"
+        defaultDictionaryLocale="en" description="QWERTY Javanese keyboard with Aksara Jawa (on long press) by bennylin"
+        index="3" defaultEnabled="true"
+        physicalKeyboardMappingResId="@xml/physical"
+        />
+</Keyboards>

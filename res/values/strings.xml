@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AnySoftKeyboard - Javanese Script (Hanacaraka - Aksara Jawa) Language Pack</string>
+    <string name="javanese_dictionary">Javanese</string>
+
+    <string name="javanese_keyboard_qwerty">Javanese (qwerty)</string>
+    <string name="javanese_keyboard_qwerty_desc">Provide Latin and Javanese script on long-press</string>
+    
+    <string name="jv_keyboard">Javanese</string>
+    <string name="jv_keyboard1">Javanese-Hanacaraka</string>
+    <string name="jv_keyboard2">Javanese-QWERTY</string>
+    <string name="jv_keyboard_qwertywithsymbols">QWERTY Javanese keyboard with Aksara Jawa (on long-press) by bennylin</string>
+    <string name="jv_keyboard_hanacaraka">Hanacaraka keyboard layout by bennylin</string>
+    <string name="id_keyboard">Indonesian</string>
+    <string name="id_keyboard_qwertywithsymbols">Indonesian with symbols</string>
+    <string name="id_keyboard_16keys">16 Keys Indonesian</string>
+</resources>

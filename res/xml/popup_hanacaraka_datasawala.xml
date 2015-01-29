@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="15%p"
+    android:keyHeight="@integer/key_normal_height">
+    <Row android:rowEdgeFlags="top">
+        <!-- da ta sa wa la -->
+        <Key android:codes="@integer/da" android:keyEdgeFlags="left"/>
+        <Key android:codes="@integer/ta"/>
+        <Key android:codes="@integer/sa"/>
+        <Key android:codes="@integer/wa"/>
+        <Key android:codes="@integer/la" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <!-- da mahaprana, ta murda, sa murda, sa mahaprana, nga lelet, nga lelet raswadi -->
+        <Key android:codes="@integer/dha" android:keyEdgeFlags="left"/>
+        <Key android:codes="@integer/tha"/>
+        <Key android:codes="@integer/sha"/>
+        <Key android:codes="@integer/ssa"/>
+        <Key android:codes="@integer/lelet"/>
+        <Key android:codes="@integer/raswadi" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>

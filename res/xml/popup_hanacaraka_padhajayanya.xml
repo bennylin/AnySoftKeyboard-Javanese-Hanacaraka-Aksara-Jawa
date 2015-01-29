@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="15%p"
+    android:keyHeight="@integer/key_normal_height">
+    <Row android:rowEdgeFlags="top">
+        <!-- pa dha ja ya nya -->
+        <Key android:codes="@integer/pa" android:keyEdgeFlags="left"/>
+        <Key android:codes="@integer/dda"/>
+        <Key android:codes="@integer/ja"/>
+        <Key android:codes="@integer/ya"/>
+        <Key android:codes="@integer/nya" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <!-- Pa murda, Dha mahaprana, Nya murda, Ja mahaprana -->
+        <Key android:codes="@integer/pha" android:keyEdgeFlags="left"/>
+        <Key android:codes="@integer/ddha"/>
+        <Key android:codes="@integer/jnya"/>
+        <Key android:codes="@integer/jha" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <!-- pengkal -->
+        <Key android:codes="@integer/pengkal" android:keyEdgeFlags="left"/>
+    </Row>
+</Keyboard>

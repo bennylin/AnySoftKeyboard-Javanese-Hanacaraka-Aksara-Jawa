@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="12%p"
+    android:keyHeight="@integer/key_normal_height">
+    <Row android:rowEdgeFlags="top">
+        <!-- tanda baca -->
+        <Key android:codes="@integer/pangkon" android:keyEdgeFlags="left"/>
+        <Key android:codes="@integer/lingsa"/>
+        <Key android:codes="@integer/lungsi"/>
+        <Key android:codes="@integer/adeg2"/>
+        <Key android:codes="@integer/adeg"/>
+        <Key android:codes="@integer/pangkat"/>
+        <Key android:codes="@integer/piseleh1"/>
+        <Key android:codes="@integer/piseleh2" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <!-- A, E, I, O, U -->
+        <Key android:codes="@integer/cecaktelu" android:keyEdgeFlags="left"/>
+        <Key android:codes="@integer/windu"/>
+        <Key android:codes="@integer/panyangga"/>
+        <Key android:codes="@integer/rerenggan1"/>
+        <Key android:codes="@integer/rerenggan2"/>
+        <Key android:codes="@integer/andhap"/>
+        <Key android:codes="@integer/madya"/>
+        <Key android:codes="@integer/luhur" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>

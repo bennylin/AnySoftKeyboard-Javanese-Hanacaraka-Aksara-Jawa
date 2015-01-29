@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="12%p"
+    android:keyHeight="@integer/key_normal_height">
+    <Row android:rowEdgeFlags="top">
+        <!-- a(tarung) e(èé taling) ê(pepet) i o(=tarung) u -->
+        <Key android:codes="@integer/tarung" android:keyEdgeFlags="left"/>
+        <Key android:codes="@integer/taling"/>
+        <Key android:codes="@integer/wulu"/>
+        <Key android:codes="@integer/melik"/>
+        <Key android:codes="@integer/pepet"/>
+        <Key android:codes="@integer/suku"/>
+        <Key android:codes="@integer/mendut"/>
+        <Key android:codes="@integer/dirga"/>
+        <Key android:codes="@integer/tolong" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <!-- A, E, I, O, U -->
+        <Key android:codes="@integer/a" android:keyEdgeFlags="left"/>
+        <Key android:codes="@integer/e"/>
+        <Key android:codes="@integer/i"/>
+        <Key android:codes="@integer/o"/>
+        <Key android:codes="@integer/u"/>
+        <Key android:codes="@integer/ai"/>
+        <Key android:codes="@integer/ikawi"/>
+        <Key android:codes="@integer/ii" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>

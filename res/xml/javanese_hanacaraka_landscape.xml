@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ask="http://schemas.android.com/apk/res-auto"
+    android:keyWidth="33%p"
+    android:keyHeight="@integer/key_normal_height">
+    <Row android:rowEdgeFlags="top"><!--
+        34-keys Hanacaraka keyboard - by bennylin
+        -->
+        <!-- either one of these works:
+        android:codes="\uA9B2,\uA9A4,\uA995,\uA9AB,\uA98F"
+        android:codes="&#xA9B2;,&#xA9A4;,&#xA995;,&#xA9AB;,&#xA98F;"
+        android:codes="0xA9B2,0xA9A4,0xA995,0xA9AB,0xA98F"
+        android:codes="43442,43428,43413,43435,43407"
+        android:codes="ꦲ,ꦤ,ꦕ,ꦫ,ꦏ"
+        -->
+        <Key android:codes="@integer/ha" android:keyLabel="ha" android:popupKeyboard="@xml/popup_hanacaraka_hanacaraka"
+            android:keyWidth="8%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="@integer/na" android:keyLabel="na" android:popupKeyboard="@xml/popup_hanacaraka_hanacaraka"
+            android:keyWidth="8%p"/>
+        <Key android:codes="@integer/ca" android:keyLabel="ca" android:popupKeyboard="@xml/popup_hanacaraka_hanacaraka"
+            android:keyWidth="8%p"/>
+        <Key android:codes="@integer/ra" android:keyLabel="ra" android:popupKeyboard="@xml/popup_hanacaraka_hanacaraka"
+            android:keyWidth="8%p"/>
+        <Key android:codes="@integer/ka" android:keyLabel="ka" android:popupKeyboard="@xml/popup_hanacaraka_hanacaraka"
+            android:keyWidth="8%p"/>
+        <Key android:codes="@integer/da" android:keyLabel="da" android:popupKeyboard="@xml/popup_hanacaraka_datasawala"
+            android:keyWidth="8%p"/>
+        <Key android:codes="@integer/ta" android:keyLabel="ta" android:popupKeyboard="@xml/popup_hanacaraka_datasawala"
+            android:keyWidth="8%p"/>
+        <Key android:codes="@integer/sa" android:keyLabel="sa" android:popupKeyboard="@xml/popup_hanacaraka_datasawala"
+            android:keyWidth="8%p"/>
+        <Key android:codes="@integer/wa" android:keyLabel="wa" android:popupKeyboard="@xml/popup_hanacaraka_datasawala"
+            android:keyWidth="8%p"/>
+        <Key android:codes="@integer/la" android:keyLabel="la" android:popupKeyboard="@xml/popup_hanacaraka_datasawala"
+            android:keyWidth="8%p"/>
+        <Key android:codes="-10" ask:longPressCode="-102" android:keyEdgeFlags="right" android:keyWidth="20%p"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="@integer/pa" android:keyLabel="pa" android:popupKeyboard="@xml/popup_hanacaraka_padhajayanya"
+            android:keyWidth="8%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="@integer/dda" android:keyLabel="dha" android:popupKeyboard="@xml/popup_hanacaraka_padhajayanya"
+            android:keyWidth="8%p"/>
+        <Key android:codes="@integer/ja" android:keyLabel="ja" android:popupKeyboard="@xml/popup_hanacaraka_padhajayanya"
+            android:keyWidth="8%p"/>
+        <Key android:codes="@integer/ya" android:keyLabel="ya" android:popupKeyboard="@xml/popup_hanacaraka_padhajayanya"
+            android:keyWidth="8%p"/>
+        <Key android:codes="@integer/nya" android:keyLabel="nya" android:popupKeyboard="@xml/popup_hanacaraka_padhajayanya"
+            android:keyWidth="8%p"/>
+        <Key android:codes="@integer/ma" android:keyLabel="ma" android:popupKeyboard="@xml/popup_hanacaraka_magabathanga"
+            android:keyWidth="8%p"/>
+        <Key android:codes="@integer/ga" android:keyLabel="ga" android:popupKeyboard="@xml/popup_hanacaraka_magabathanga"
+            android:keyWidth="8%p"/>
+        <Key android:codes="@integer/ba" android:keyLabel="ba" android:popupKeyboard="@xml/popup_hanacaraka_magabathanga"
+            android:keyWidth="8%p"/>
+        <Key android:codes="@integer/tta" android:keyLabel="tha" android:popupKeyboard="@xml/popup_hanacaraka_magabathanga"
+            android:keyWidth="8%p"/>
+        <Key android:codes="@integer/nga" android:keyLabel="nga" android:popupKeyboard="@xml/popup_hanacaraka_magabathanga"
+            android:keyWidth="8%p"/>
+        <Key android:codes="-2" android:keyLabel="123" android:keyEdgeFlags="right" android:keyWidth="20%p"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="@integer/adeg2" android:keyLabel="|" android:popupKeyboard="@xml/popup_hanacaraka_spesial"
+            android:keyWidth="8%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="@integer/tarung" android:keyLabel="a" android:popupKeyboard="@xml/popup_hanacaraka_aeiou"
+            android:keyWidth="8%p"/>
+        <Key android:codes="@integer/taling" android:keyLabel="e" android:popupKeyboard="@xml/popup_hanacaraka_aeiou"
+            android:keyWidth="8%p"/>
+        <Key android:codes="@integer/wulu" android:keyLabel="i" android:popupKeyboard="@xml/popup_hanacaraka_aeiou"
+            android:keyWidth="8%p"/>
+        <Key android:codes="@integer/pepet" android:keyLabel="ê" android:popupKeyboard="@xml/popup_hanacaraka_aeiou"
+            android:keyWidth="8%p"/>
+        <Key android:codes="@integer/suku" android:keyLabel="u" android:popupKeyboard="@xml/popup_hanacaraka_aeiou"
+            android:keyWidth="8%p"/>
+        <Key android:codes="@integer/pangkat" android:keyLabel=":" android:popupKeyboard="@xml/popup_hanacaraka_spesial"
+            android:keyWidth="8%p"/>
+        <Key android:codes="@integer/lingsa" android:keyLabel="," android:popupKeyboard="@xml/popup_hanacaraka_spesial"
+            android:keyWidth="8%p"/>
+        <Key android:codes="@integer/lungsi" android:keyLabel="." android:popupKeyboard="@xml/popup_hanacaraka_spesial"
+            android:keyWidth="8%p"/>
+        <Key android:codes="@integer/pangkon" android:keyLabel="꧀" android:popupKeyboard="@xml/popup_hanacaraka_spesial"
+            android:keyWidth="8%p"/>
+        <Key android:codes="-5" android:isRepeatable="true" android:keyEdgeFlags="right" android:keyWidth="20%p"/>
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-1" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left" android:keyWidth="15%p"/>
+        <Key android:codes="ꦄ,ꦌ,ꦆ,ꦎ,ꦈ" android:keyLabel="swara" android:popupKeyboard="@xml/popup_hanacaraka_aeiou"
+            android:keyWidth="25%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="32,48" android:keyWidth="20%p"/>
+        <Key android:codes="꦳,꧌,꧍,꧊" android:keyLabel="spesial" android:popupKeyboard="@xml/popup_hanacaraka_spesial"
+            android:keyWidth="25%p"/>
+        <Key android:codes="10" android:keyEdgeFlags="right" ask:longPressCode="-100" android:keyWidth="15%p"/>
+    </Row>
+</Keyboard>

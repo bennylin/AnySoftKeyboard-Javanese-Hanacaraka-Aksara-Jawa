@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="15%p"
+    android:keyHeight="@integer/key_normal_height">
+    <Row android:rowEdgeFlags="top">
+        <!-- ma ga ba tha nga -->
+        <Key android:codes="@integer/ma" android:keyEdgeFlags="left"/>
+        <Key android:codes="@integer/ga"/>
+        <Key android:codes="@integer/ba"/>
+        <Key android:codes="@integer/tta"/>
+        <Key android:codes="@integer/nga" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <!-- Ga murda, Ba murda, Tha mahaprana-->
+        <Key android:codes="@integer/gha" android:keyEdgeFlags="left"/>
+        <Key android:codes="@integer/bha"/>
+        <Key android:codes="@integer/ttha" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <!-- cecak -->
+        <Key android:codes="@integer/cecak" android:keyEdgeFlags="left"/>
+    </Row>
+</Keyboard>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="15%p"
+    android:keyHeight="@integer/key_normal_height">
+    <Row android:rowEdgeFlags="top">
+        <!-- ha na ca ra ka ꦲꦤꦕꦫꦏ -->
+        <Key android:codes="@integer/ha" android:keyEdgeFlags="left"/>
+        <Key android:codes="@integer/na"/>
+        <Key android:codes="@integer/ca"/>
+        <Key android:codes="@integer/ra"/>
+        <Key android:codes="@integer/ka" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <!-- Na murda, Ca mahaprana, Ra Agung, Ka murda, Ka Sasak-->
+        <Key android:codes="@integer/nna" android:keyEdgeFlags="left"/>
+        <Key android:codes="@integer/cha"/>
+        <Key android:codes="@integer/rra"/>
+        <Key android:codes="@integer/kha"/>
+        <Key android:codes="@integer/sasak" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <!-- wignyan, layar, cakra, keret, cerek -->
+        <Key android:codes="@integer/wignyan" android:keyEdgeFlags="left"/>
+        <Key android:codes="@integer/layar"/>
+        <Key android:codes="@integer/cakra"/>
+        <Key android:codes="@integer/keret"/>
+        <Key android:codes="@integer/cerek" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>
